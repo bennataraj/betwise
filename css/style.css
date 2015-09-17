@@ -8,7 +8,8 @@ body {
   font-family: 'Lato', sans-serif;
   color: #666;
   text-align: center;
-  
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -20,11 +21,21 @@ margin-right:auto;
 }
 
 header {
-height: 200px;
+height: 100px;
+width: 100%;
+padding:; 1%;
+background: #fff;
 }
 
 nav {
 width:960px;
+}
+.logo{
+  float: left;
+}
+.headerContain{
+  width: 85%;
+  margin: 0 auto;
 }
 
 #content {
