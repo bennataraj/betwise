@@ -21,20 +21,28 @@ margin-right:auto;
 }
 
 header {
-height: 100px;
+height: 80px;
 width: 100%;
-padding:; 1%;
+padding: 5px;
 background: #fff;
 }
 
 nav {
 width:960px;
 }
+.navMenu {
+  float: right;
+}
+.navMenu li{
+  float: left;
+  margin: 5px;
+  padding: 5px;
+}
 .logo{
   float: left;
 }
 .headerContain{
-  width: 85%;
+  width: 80%;
   margin: 0 auto;
 }
 
